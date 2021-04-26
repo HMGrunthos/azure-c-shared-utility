@@ -211,7 +211,7 @@ set(source_c_files
     ./src/constmap.c
     ./src/doublylinkedlist.c
     ./src/gballoc.c
-    ./src/gbnetwork.c
+    # ./src/gbnetwork.c
     ./src/gb_stdio.c
     ./src/gb_time.c
     ./src/gb_rand.c

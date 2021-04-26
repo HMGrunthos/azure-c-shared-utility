@@ -10,7 +10,7 @@ endif()
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 # Build with -fPIC always
-set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
+# set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 
 option(run_valgrind "set run_valgrind to ON if tests are to be run under valgrind/helgrind/drd. Default is OFF" OFF)
 set(compileOption_C "" CACHE STRING "passes a string to the command line of the C compiler")
